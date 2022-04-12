@@ -8,7 +8,7 @@ export const HOUR = MINUTE * 60;
 export const DAY = HOUR * 24;
 export const YEAR = DAY * 365;
 
-export const age = ageMilliseconds / YEAR;
+const age = ageMilliseconds / YEAR;
 
 const siteMetadata = {
   title: 'Vince',
