@@ -1,3 +1,3 @@
 ```
-info : npx fiqryq
+yo boi
 ```
