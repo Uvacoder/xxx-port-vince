@@ -26,7 +26,7 @@ module.exports = {
         '8.5xl': '7rem',
       },
       fontFamily: {
-        sans: ['Inter'],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
         kronaone: ["Krona One", "sans-serif"],
       },
       gradientColorStops: {
