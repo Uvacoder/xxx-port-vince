@@ -13,31 +13,31 @@ export default function Footer() {
           <ul className="flex space-x-2">
             <li>{`© ${new Date().getFullYear()}`}</li>
             <li>{` • `}</li>
-            <li>
+            <li className="hover:text-black dark:hover:text-white duration-200">
               <Link href="/">{siteMetadata.title}</Link>
             </li>
             <li>{` • `}</li>
-            <li>
+            <li className="hover:text-black dark:hover:text-white duration-200">
               <Link href="/activity">Activity</Link>
             </li>
           </ul>
           <ul className="flex space-x-5 items-center cursor-pointer">
-            <li>
+            <li className="hover:text-black dark:hover:text-white duration-200">
               <Link href="https://discord.com/users/723977420364840970">
                 <FaDiscord size={20} />
               </Link>
             </li>
-            <li>
+            <li className="hover:text-black dark:hover:text-white duration-200">
               <Link href="https://github.com/VinceTheGenius">
                 <FaGithub size={20} />
               </Link>
             </li>
-            <li>
+            <li className="hover:text-black dark:hover:text-white duration-200">
               <Link href="https://twitter.com/VinceTheGenius">
                 <FaTwitter size={20} />
               </Link>
             </li>
-            <li>
+            <li className="hover:text-black dark:hover:text-white duration-200">
               <Link href="https://open.spotify.com/user/314afdlbk3hweoo5mg3d2lfcqelq">
                 <FaSpotify size={20} />
               </Link>
