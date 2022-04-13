@@ -1,7 +1,6 @@
 import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import NowPlaying from './NowPlaying'
-import { AiFillLinkedin } from 'react-icons/ai'
 import { FaTwitter, FaGithub, FaSpotify, FaDiscord } from 'react-icons/fa'
 
 export default function Footer() {
