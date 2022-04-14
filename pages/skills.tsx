@@ -1,12 +1,12 @@
 import { ListItem } from '@/components/List-item'
 import {
-	SiHtml5,
+  SiHtml5,
   SiCss3,
   SiJavascript,
   SiVuedotjs,
   SiReact,
   SiNextdotjs as SiNextDotJs,
-	SiNodedotjs as SiNodeDotJs,
+  SiNodedotjs as SiNodeDotJs,
   SiTypescript,
   SiPython,
   SiDiscord,
