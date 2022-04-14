@@ -20,7 +20,8 @@ export default function skills() {
       </p>
 
       <p className="text-gray-800 dark:text-white">
-        I usually use <span className="font-semibold">HTML & CSS</span> for Frontend developement, and I'm learning{' '}
+        I usually use <span className="font-semibold">HTML & CSS</span> for Frontend developement, 
+        and I'm learning{' '}
         <span className="font-semibold">Javascript </span> and its frameworks, like{' '}
         <span className="font-semibold">Vue.js</span>,{' '}
         <span className="font-semibold">Next.js</span>,{' '}
