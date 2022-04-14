@@ -13,9 +13,11 @@ import {
 } from 'react-icons/si'
 
 export default function skills() {
-  return (
+ return (
     <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-      <p className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">Skills & Uses</p>
+      <p className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+        Skills & Uses
+      </p>
 
       <p className="text-gray-800 dark:text-white">
             I usually use <span className="font-semibold">HTML & CSS</span> for Frontend developement, and I'm learning{" "}
