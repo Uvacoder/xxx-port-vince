@@ -10,7 +10,7 @@ import {
     SiTypescript,
     SiPython,
     SiDiscord,
-} from 'react-icons/si';
+} from 'react-icons/si'
 
 export default function skills() {
   return (
@@ -32,7 +32,7 @@ export default function skills() {
 					<ListItem icon={SiHtml5} text="HTML" />
 					<ListItem icon={SiCss3} text="CSS" />
 					<ListItem icon={SiJavascript} text="Javascript" />
-          <ListItem icon={SiVuedotjs} text="Vue.js" />
+         				<ListItem icon={SiVuedotjs} text="Vue.js" />
 					<ListItem icon={SiReact} text="React.js" />
 					<ListItem icon={SiNextDotJs} text="Next.js" />
 					<ListItem icon={SiNodeDotJs} text="Node.js" />
