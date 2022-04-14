@@ -20,12 +20,12 @@ export default function skills() {
       </p>
 
       <p className="text-gray-800 dark:text-white">
-        I usually use <span className="font-semibold">HTML & CSS</span> for Frontend developement,
-        and I'm learning{" "} <span className="font-semibold">Javascript </span> and its frameworks, like{" "}
-        <span className="font-semibold">Vue.js</span>,{" "}
-        <span className="font-semibold">Next.js</span>,{" "}
+        I usually use <span className="font-semibold">HTML & CSS</span> for Frontend developement, and I'm learning{' '}
+        <span className="font-semibold">Javascript </span> and its frameworks, like{' '}
+        <span className="font-semibold">Vue.js</span>,{' '}
+        <span className="font-semibold">Next.js</span>,{' '}
         <br/> and <span className="font-semibold">Typescript</span> is one of the language I must learn.
-        <br/>I also use{" "}
+        <br/>I also use{' '}
         <span className="font-semibold">Python </span>as my main programming language.
         <br/>As a general rule, I keep up to date with new technologies.
       </p>
