@@ -14,14 +14,14 @@ import {
 
 export default function skills() {
   return (
-    <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+   <div className="pt-6 pb-8 space-y-2 md:space-y-5">
       <p className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
         Skills & Uses
       </p>
 
       <p className="text-gray-800 dark:text-white">
-        I usually use <span className="font-semibold">HTML & CSS</span> for Frontend developement, and I'm learning{" "}
-        <span className="font-semibold">Javascript </span> and its frameworks, like{" "}
+        I usually use <span className="font-semibold">HTML & CSS</span> for Frontend developement,
+        and I'm learning{" "} <span className="font-semibold">Javascript </span> and its frameworks, like{" "}
         <span className="font-semibold">Vue.js</span>,{" "}
         <span className="font-semibold">Next.js</span>,{" "}
         <br/> and <span className="font-semibold">Typescript</span> is one of the language I must learn.
