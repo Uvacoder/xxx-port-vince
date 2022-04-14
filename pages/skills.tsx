@@ -31,18 +31,18 @@ export default function skills() {
       </p>
 
       <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 text-md my-8 py-5">
-					<ListItem icon={SiHtml5} text="HTML" />
-					<ListItem icon={SiCss3} text="CSS" />
-					<ListItem icon={SiJavascript} text="Javascript" />
-         				<ListItem icon={SiVuedotjs} text="Vue.js" />
-					<ListItem icon={SiReact} text="React.js" />
-					<ListItem icon={SiNextDotJs} text="Next.js" />
-					<ListItem icon={SiNodeDotJs} text="Node.js" />
-					<ListItem icon={SiTypescript} text="TypeScript" />
-					<ListItem icon={SiPython} text="Python" />
-					<ListItem icon={SiDiscord} text="Discord.js" />
-				</ul>
+        <ListItem icon={SiHtml5} text="HTML" />
+        <ListItem icon={SiCss3} text="CSS" />
+        <ListItem icon={SiJavascript} text="Javascript" />
+        <ListItem icon={SiVuedotjs} text="Vue.js" />
+        <ListItem icon={SiReact} text="React.js" />
+        <ListItem icon={SiNextDotJs} text="Next.js" />
+        <ListItem icon={SiNodeDotJs} text="Node.js" />
+        <ListItem icon={SiTypescript} text="TypeScript" />
+        <ListItem icon={SiPython} text="Python" />
+        <ListItem icon={SiDiscord} text="Discord.js" />
+      </ul>
 
     </div>
-  );
-};
+  )
+}
