@@ -1,4 +1,4 @@
-import {ListItem} from '@/components/list-item'
+import { ListItem } from '@/components/List-item'
 import {
 	SiHtml5,
     SiCss3,
