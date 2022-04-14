@@ -1,15 +1,15 @@
 import { ListItem } from '@/components/List-item'
 import {
 	SiHtml5,
-    SiCss3,
-    SiJavascript,
-    SiVuedotjs,
-    SiReact,
-    SiNextdotjs as SiNextDotJs,
+  SiCss3,
+  SiJavascript,
+  SiVuedotjs,
+  SiReact,
+  SiNextdotjs as SiNextDotJs,
 	SiNodedotjs as SiNodeDotJs,
-    SiTypescript,
-    SiPython,
-    SiDiscord,
+  SiTypescript,
+  SiPython,
+  SiDiscord,
 } from 'react-icons/si'
 
 export default function skills() {
