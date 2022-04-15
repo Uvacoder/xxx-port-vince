@@ -1,4 +1,4 @@
-import { ListItem } from '@/components/List-item';
+import {ListItem} from '@/components/List-item'
 import {
 	SiHtml5,
 	SiCss3,
@@ -10,7 +10,7 @@ import {
 	SiTypescript,
 	SiPython,
 	SiDiscord,
-} from 'react-icons/si';
+} from 'react-icons/si'
 
 export default function skills() {
 	return (
@@ -44,5 +44,5 @@ export default function skills() {
 				<ListItem icon={SiDiscord} text="Discord.js" />
 			</ul>
 		</div>
-	);
+	)
 }
