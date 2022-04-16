@@ -16,7 +16,7 @@ export default function Sales() {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Here's some sales of my work.{' '}
             <span className="font-semibold">
-              If you are intersted, please contact me on <span className="font-bold">discord</span>.
+              If you are intersted, please contact me on <span className="font-bold underline underline-offset-1">discord</span>.
             </span>{' '}
             I can't receive money but you can pay me with discord nitro.
           </p>
