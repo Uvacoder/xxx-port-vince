@@ -15,7 +15,7 @@ export default function Sales() {
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Here's some sales of my work. If you are intersted, please contact me on discord{' '}
-            <span>👌</span>
+            <span role="img">👌</span>
           </p>
         </div>
         <div className="container py-5">
