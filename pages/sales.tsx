@@ -1,7 +1,7 @@
 import siteMetadata from '@/data/siteMetadata'
 import salesData from '@/data/salesData'
 import githubData from '@/data/githubData'
-import Card from '@/components/Card'
+import Card from '@/components/SalesCard'
 import { PageSEO } from '@/components/SEO'
 
 export default function Sales() {
@@ -14,7 +14,7 @@ export default function Sales() {
             Sales
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Here's some sales of my work. If you are intersted, please contact me on discord.
+            Here's some sales of my work. If you are intersted, please contact me on discord. I can't receive money but you can pay me with discord nitro.
           </p>
         </div>
         <div className="container py-5">
@@ -24,6 +24,7 @@ export default function Sales() {
                 key={d.title}
                 title={d.title}
                 description={d.description}
+                price={d.price}
                 imgSrc={d.imgSrc}
                 href={d.href}
               />
