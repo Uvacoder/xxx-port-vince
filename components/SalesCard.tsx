@@ -34,7 +34,9 @@ const Card = ({ title, description, price, imgSrc, href }) => (
           )}
         </h2>
         <p className="prose text-gray-500 max-w-none dark:text-gray-400">{description}</p>
-        <p className="prose text-gray-500 max-w-none dark:text-gray-400 font-semibold mt-3.5">Price: {price}</p>
+        <p className="prose text-gray-500 max-w-none dark:text-gray-400 font-semibold mt-3.5">
+          Price: {price}
+        </p>
       </div>
     </div>
   </div>
