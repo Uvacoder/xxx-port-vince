@@ -5,7 +5,7 @@ const salesData = [
       price: '$10',
       imgSrc: '/static/images/sales/discord-bot-website.png',
       tag: ['html', 'css'],
-      href: 'https://heliantea.vincethegenius.repl.co',
+      href: 'https://discord.com/users/723977420364840970',
     },
   ]
   
