@@ -15,7 +15,7 @@ const projectsData = [
   },
   {
     title: 'Robux Generator',
-    description: `Fake robux generator ¯\\_(ツ)_/¯ to scare yound kids to protect them from the many scams on Internet.`,
+    description: `Fake robux generator ¯\\_(ツ)_/¯ to scare young kids to protect them from the many scams on Internet.`,
     imgSrc: '/static/images/project/robux-generator.png',
     tag: ['js', 'jquery'],
     href: 'https://giverobuxto.me',
