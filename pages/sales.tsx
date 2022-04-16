@@ -14,8 +14,11 @@ export default function Sales() {
             Sales
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Here's some sales of my work. <span className="font-semibold">If you are intersted, please contact me on <span className="font-bold">discord</span>.</span> I
-            can't receive money but you can pay me with discord nitro.
+            Here's some sales of my work.{' '}
+            <span className="font-semibold">
+              If you are intersted, please contact me on <span className="font-bold">discord</span>.
+            </span>{' '}
+            I can't receive money but you can pay me with discord nitro.
           </p>
         </div>
         <div className="container py-5">
