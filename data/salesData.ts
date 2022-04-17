@@ -1,7 +1,7 @@
 const salesData = [
     {
       title: 'Discord Bot Website',
-      description: `A perfect website to promote your Discord bot. Contain features, faq and support sections, and a documentation page for commands.`,
+      description: `A perfect website to promote your Discord bot. Contain features, faq and support sections, and a documentation page for the bot's commands.`,
       price: '$10',
       imgSrc: '/static/images/sales/discord-bot-website.png',
       tag: ['html', 'css'],
@@ -10,4 +10,3 @@ const salesData = [
   ]
   
   export default salesData
-  
