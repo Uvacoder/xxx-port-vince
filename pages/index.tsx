@@ -24,7 +24,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
         <div className="py-10 space-y-2 rounded-lg md:space-y-5">
           <div className="flex flex-col space-y-3">
             <h1 className="text-3xl font-bold leading-9 tracking-tight text-gray-800 dark:text-white sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-              {`Hi 👋 i'm ${siteMetadata.author}`}
+              {`Hey I'm ${siteMetadata.author} ✌️`}
             </h1>
             <p className="text-lg leading-7 text-gray-800 dark:text-white">
               {siteMetadata.description}
