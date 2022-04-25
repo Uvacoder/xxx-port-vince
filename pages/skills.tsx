@@ -38,9 +38,7 @@ export default function Skills() {
           As a general rule, I keep up to date with new technologies.
         </p>
 
-        <h3 className="text-xl font-semibold">
-          Languages/frameworks I'm familiar with:
-        </h3>
+        <h3 className="text-xl font-semibold">Languages/frameworks I'm familiar with:</h3>
 
         <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 text-md my-8 py-5">
           <ListItem icon={SiHtml5} text="HTML" />
@@ -56,9 +54,7 @@ export default function Skills() {
           <ListItem icon={SiDiscord} text="Discord.js" />
         </ul>
 
-        <h3 className="text-xl font-semibold">
-          Other tools:
-        </h3>
+        <h3 className="text-xl font-semibold">Other tools:</h3>
         <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 text-md my-8 py-5">
           <ListItem icon={SiVercel} text="Vercel" />
           <ListItem icon={SiNpm} text="Npm" />
