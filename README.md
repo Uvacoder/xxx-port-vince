@@ -5,3 +5,7 @@
 
 ### Tools :
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)  ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=flat&logo=npm&logoColor=white)
+
+### Deployment
+
+<a href="https://vercel.com/"><img src="https://raw.githubusercontent.com/quentinguidee/Omega-Design/master/powered-by-vercel.svg"></img></a>
