@@ -1,6 +1,5 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
-import '@fontsource/krona-one/400.css'
 
 import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'

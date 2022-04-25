@@ -23,7 +23,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
       <div className="divide-gray-200 dark:divide-gray-700">
         <div className="py-10 space-y-2 rounded-lg md:space-y-5">
           <div className="flex flex-col space-y-3">
-            <h1 className="font-kronaone text-3xl font-extrabold leading-9 tracking-tight text-gray-800 dark:text-white sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+            <h1 className="text-3xl font-bold leading-9 tracking-tight text-gray-800 dark:text-white sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
               {`Hi 👋 i'm ${siteMetadata.author}`}
             </h1>
             <p className="text-lg leading-7 text-gray-800 dark:text-white">
@@ -46,7 +46,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             </div> */}
           </div>
         </div>
-        <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
+        <h1 className="text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
           Recent Post
         </h1>
         <ul className="sdivide-gray-200">
@@ -89,7 +89,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
         <WhatIdo />
       </div>
       <div className="py-7">
-        <h1 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
+        <h1 className="text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
           My <span className="text-green-500">Spotify</span> Top Song
         </h1>
         <TopTracks />
