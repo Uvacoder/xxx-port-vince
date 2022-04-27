@@ -1,7 +1,7 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
-import Router from "next/router"
-import React, {useEffect} from 'react';
+import Router from 'next/router'
+import React, { useEffect } from 'react'
 
 import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'
@@ -14,13 +14,12 @@ import siteMetadata from '@/data/siteMetadata'
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 
-Router.events.on("routeChangeStart", () => {
-		if (typeof window === 'undefined') {
-			return;
-		}
-		void new Audio('/pop.mp3').play()
-	}
-)
+Router.events.on('routeChangeStart', () => {
+  if (typeof window === 'undefined') {
+    return
+  }
+  void new Audio('/pop.mp3').play()
+})
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
