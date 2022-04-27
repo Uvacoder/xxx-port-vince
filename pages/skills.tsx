@@ -44,7 +44,7 @@ export default function Skills() {
           <ListItem icon={SiHtml5} text="HTML" />
           <ListItem icon={SiCss3} text="CSS" />
           <ListItem icon={SiJavascript} text="Javascript" />
-          <ListItem icon={SiTailwindcss} text="Tailwind css" />
+          <ListItem icon={SiTailwindcss} text="TailwindCSS" />
           <ListItem icon={SiVuedotjs} text="Vue.js" />
           <ListItem icon={SiReact} text="React.js" />
           <ListItem icon={SiNextDotJs} text="Next.js" />
