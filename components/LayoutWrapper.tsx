@@ -7,7 +7,6 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { ReactNode } from 'react'
 import { useState, useEffect } from 'react'
-import { FiExternalLink } from 'react-icons/fi'
 
 interface Props {
   children: ReactNode
@@ -54,13 +53,13 @@ const LayoutWrapper = ({ children }: Props) => {
               </div>
             </Link>
           </div>
-          <div className="flex items-center text-base leading-5">
-            <div className="hidden sm:block">
+          <div className="flex flex-nowwrap items-center text-base leading-5">
+            <div className="hidden sm:flex flex-row">
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 hover:bg-gray-300 hover:backdrop-blur dark:hover:backdrop-blur hover:bg-opacity-20 hover:rounded-lg font-semibold text-gray-700 sm:p-4 dark:text-gray-100 duration-200"
+                  className="flex flex-row gap-2 p-1 hover:bg-gray-300 hover:backdrop-blur dark:hover:backdrop-blur hover:bg-opacity-20 hover:rounded-lg font-semibold text-gray-700 sm:p-4 dark:text-gray-100 duration-200"
                   /* its possible to set "dark:hover:bg-gray-800" ⬆ */
                 >
                   {link.title}

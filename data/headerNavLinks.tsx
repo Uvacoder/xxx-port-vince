@@ -1,3 +1,5 @@
+import { FiExternalLink } from 'react-icons/fi'
+
 const headerNavLinks = [
   { href: '/', title: 'Home' },
   { href: '/blog', title: 'Blog' },
@@ -6,7 +8,7 @@ const headerNavLinks = [
   // { href: '/snippets', title: 'Snippets' },
   { href: '/about', title: 'About' },
   { href: '/sales', title: 'Sales' },
-  { href: 'https://github.com/VinceTheGenius', title: 'Github', github: true, icon: 'FiExternalLink' },
+  { href: 'https://github.com/VinceTheGenius', title: 'Github', github: true, icon: <FiExternalLink /> },
 ]
 
 export default headerNavLinks
