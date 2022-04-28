@@ -40,6 +40,7 @@ const MobileNav = (props: INav) => {
               onClick={props.toggle}
             >
               {link.title}
+              {link.icon}
             </Link>
           </div>
         ))}
