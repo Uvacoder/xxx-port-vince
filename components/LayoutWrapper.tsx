@@ -7,7 +7,7 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { ReactNode } from 'react'
 import { useState, useEffect } from 'react'
-import { FiExternalLink } from "react-icons/fi"
+import { FiExternalLink } from 'react-icons/fi'
 
 interface Props {
   children: ReactNode
