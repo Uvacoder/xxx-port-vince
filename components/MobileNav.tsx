@@ -36,7 +36,7 @@ const MobileNav = (props: INav) => {
           <div key={link.title} className="px-8 py-4">
             <Link
               href={link.href}
-              className="text-2xl font-semibold tracking-wide text-gray-900 dark:text-gray-100"
+              className="flex flex-row gap-2 text-2xl font-semibold tracking-wide text-gray-900 dark:text-gray-100"
               onClick={props.toggle}
             >
               {link.title}

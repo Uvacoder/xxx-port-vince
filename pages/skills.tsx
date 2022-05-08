@@ -15,6 +15,7 @@ import {
   SiDiscord,
   SiVercel,
   SiNpm,
+  SiYarn,
 } from 'react-icons/si'
 
 export default function Skills() {
@@ -58,6 +59,7 @@ export default function Skills() {
         <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 text-md my-8 py-5">
           <ListItem icon={SiVercel} text="Vercel" />
           <ListItem icon={SiNpm} text="Npm" />
+          <ListItem icon={SiYarn} text="Yarn" />
         </ul>
       </div>
     </>
