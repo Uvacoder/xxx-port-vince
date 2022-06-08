@@ -57,9 +57,9 @@ export default function Skills() {
 
         <h3 className="text-xl font-semibold">Other tools:</h3>
         <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 text-md my-8 py-5">
-          <ListItem icon={SiVercel} text="Vercel" />
           <ListItem icon={SiNpm} text="Npm" />
           <ListItem icon={SiYarn} text="Yarn" />
+          <ListItem icon={SiVercel} text="Vercel" />
         </ul>
       </div>
     </>
