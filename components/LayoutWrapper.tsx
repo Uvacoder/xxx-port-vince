@@ -35,8 +35,10 @@ const LayoutWrapper = ({ children }: Props) => {
       <MobileNav show={navShow} toggle={onToggleNav} />
       <header
         className={`overflow-x-hidden ${
-          scroll ? 'border-b-[1px] dark:border-gray-900 border-gray-300/50' : ''
-        }  backdrop-blur supports-backdrop-blur:bg-white/95 py-5 fixed w-full top-0 z-40 bg-white/50 dark:bg-black/50`}
+          scroll
+            ? 'border-b-[1px] dark:border-gray-900 border-gray-300/50 backdrop-blur supports-backdrop-blur:bg-white/95'
+            : ''
+        } py-5 fixed w-full top-0 z-40 dark:bg-black/50`}
       >
         <div className="mx-auto max-w-3xl xl:max-w-3xl flex items-center justify-between px-3 xl:px-0">
           <div>

@@ -37,6 +37,8 @@ module.exports = {
         'gradient-3-end': '#2D00F7',
       },
       colors: {
+        'background': '#FFFFFF',
+        'dark-background': '#000000',
         primary: {
           100: '#FDD1D9',
           200: '#FBA4BC',

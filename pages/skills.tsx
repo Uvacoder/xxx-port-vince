@@ -6,7 +6,6 @@ import {
   SiCss3,
   SiJavascript,
   SiTailwindcss,
-  SiVuedotjs,
   SiReact,
   SiNextdotjs as SiNextDotJs,
   SiNodedotjs as SiNodeDotJs,
@@ -29,10 +28,10 @@ export default function Skills() {
 
         <p className="text-gray-800 dark:text-white">
           I usually use <span className="font-semibold">HTML & CSS</span> for Frontend developement,
-          and I'm learning <span className="font-semibold">Javascript </span> and its frameworks,
-          like <span className="font-semibold">Vue.js</span>,{' '}
-          <span className="font-semibold">Next.js</span>, <br />
-          and <span className="font-semibold">Typescript</span> is one of the language I must learn.
+          and I'm learning <span className="font-semibold">Javascript</span> &{' '}
+          <span className="font-semibold">Typescript</span>, and some Js frameworks, like{' '}
+          <span className="font-semibold">React.js</span> &{' '}
+          <span className="font-semibold">Next.js</span>.
           <br />I also use <span className="font-semibold">Python </span>as my main programming
           language.
           <br />
@@ -44,15 +43,14 @@ export default function Skills() {
         <ul className="grid grid-cols-3 gap-4 sm:grid-cols-4 text-md my-8 py-5">
           <ListItem icon={SiHtml5} text="HTML" />
           <ListItem icon={SiCss3} text="CSS" />
-          <ListItem icon={SiJavascript} text="Javascript" />
           <ListItem icon={SiTailwindcss} text="TailwindCSS" />
-          <ListItem icon={SiVuedotjs} text="Vue.js" />
+          <ListItem icon={SiJavascript} text="Javascript" />
+          <ListItem icon={SiTypescript} text="TypeScript" />
+          <ListItem icon={SiNodeDotJs} text="Node.js" />
           <ListItem icon={SiReact} text="React.js" />
           <ListItem icon={SiNextDotJs} text="Next.js" />
-          <ListItem icon={SiNodeDotJs} text="Node.js" />
-          <ListItem icon={SiTypescript} text="TypeScript" />
-          <ListItem icon={SiPython} text="Python" />
           <ListItem icon={SiDiscord} text="Discord.js" />
+          <ListItem icon={SiPython} text="Python" />
         </ul>
 
         <h3 className="text-xl font-semibold">Other tools:</h3>
