@@ -15,10 +15,10 @@ export default function Footer() {
             <li className="hover:text-black dark:hover:text-white duration-200">
               <Link href="/">{siteMetadata.title}</Link>
             </li>
-            <li>{` • `}</li>
+            {/* <li>{` • `}</li>
             <li className="hover:text-black dark:hover:text-white duration-200">
               <Link href="/activity">Activity</Link>
-            </li>
+            </li> */}
           </ul>
           <ul className="flex space-x-5 items-center cursor-pointer">
             <li className="hover:text-black dark:hover:text-white duration-200">
