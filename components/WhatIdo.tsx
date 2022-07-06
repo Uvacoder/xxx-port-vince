@@ -26,20 +26,20 @@ export default function WhatIdo() {
           onMouseLeave={() => set({ xys: [0, 0, 1] })}
           style={{ transform: props.xys.to(trans) }}
         >  */}
-          <div className="w-full cursor-auto duration-200 hover:scale-[1.03] h-full p-[6px] bg-gradient-to-r  from-[#a5f3fc] to-[#3A41A4] rounded-lg space-y-2">
-            <div className="py-4 px-6 bg-white dark:bg-black dark:bg-brand-black h-full rounded-lg">
-              <h1 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-xl  md:text-2xl">
-                <span className="pr-2" role="img" aria-label="wave">
-                  ⚙
-                </span>
-                Building Project
-              </h1>
-              <p className="text-gray-600 dark:text-gray-300">
-                I'm very active on Github to create open-source projects or personal projects,
-                sometimes I also contribute to open-source projects.
-              </p>
-            </div>
+        <div className="w-full cursor-auto duration-200 hover:scale-[1.03] h-full p-[6px] bg-gradient-to-r  from-[#a5f3fc] to-[#3A41A4] rounded-lg space-y-2">
+          <div className="py-4 px-6 bg-white dark:bg-black dark:bg-brand-black h-full rounded-lg">
+            <h1 className="text-xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-xl  md:text-2xl">
+              <span className="pr-2" role="img" aria-label="wave">
+                ⚙
+              </span>
+              Building Project
+            </h1>
+            <p className="text-gray-600 dark:text-gray-300">
+              I'm very active on Github to create open-source projects or personal projects,
+              sometimes I also contribute to open-source projects.
+            </p>
           </div>
+        </div>
         {/* </animated.a> */}
         <div className="w-full cursor-auto duration-200 hover:scale-[1.03] h-full p-[6px] bg-gradient-to-r  from-[#9333ea] to-[#3A41A4] rounded-lg space-y-2">
           <div className="py-4 px-6 bg-white dark:bg-black dark:bg-brand-black h-full rounded-lg">
