@@ -1,8 +1,8 @@
 import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import NowPlaying from './NowPlaying'
-import { FiTwitter, FiGithub } from "react-icons/fi";
-import * as Icons from "./Icons";
+import { FiTwitter, FiGithub } from 'react-icons/fi'
+import * as Icons from './Icons'
 
 export default function Footer() {
   return (
