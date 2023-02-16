@@ -28,12 +28,12 @@ export default function Footer() {
               </Link>
             </li>
             <li className="hover:text-black dark:hover:text-white duration-200">
-              <Link href="https://github.com/VinceTheGenius">
+              <Link href="https://github.com/uvacoder">
                 <FiGithub size={20} />
               </Link>
             </li>
             <li className="hover:text-black dark:hover:text-white duration-200">
-              <Link href="https://twitter.com/VinceTheGenius">
+              <Link href="https://twitter.com/VaLandscapes">
                 <FiTwitter size={20} />
               </Link>
             </li>
